@@ -1,7 +1,7 @@
 ﻿using ClosedXML.Excel;
 using System.ComponentModel;
 
-namespace Houshmand.Shaparak.Hub.Dashboard.Application.Common.Utilities;
+namespace Application.Common.Utilities;
 public class ExcelUtility
 {
     public static string GetExcelFile<T>(IReadOnlyList<T> dataList, string fileName) where T : class
